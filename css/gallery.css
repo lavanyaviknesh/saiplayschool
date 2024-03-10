@@ -51,7 +51,7 @@ background: #191919;
     transform: scale(1.1);
 }
 @media (max-width: 768px) {
-    .gallery div #backBtn,#nextBtn {
+    .gallery div #backBtn #nextBtn {
         position: relative;
         min-height: 500px;
     }
