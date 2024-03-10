@@ -28,12 +28,7 @@ background: #191919;
 .gallery::-webkit-scrollbar{
     display: none;
 }
-@media (max-width: 768px) {
-    .gallery div img .gallery {
-        position: relative;
-        min-height: 500px 600px;
-    }
-    }
+
 .gallery-wrap{
  display: flex;
  align-items: center;
@@ -50,11 +45,3 @@ background: #191919;
     cursor: pointer;
     transform: scale(1.1);
 }
-@media (max-width: 768px) {
-    .gallery div img{
-        width: 100%;
-        filter: grayscale(100%);
-        transition: transform 0.5s;
-        min-height: 500px 600px;
-    } 
-    }
