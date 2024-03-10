@@ -436,9 +436,10 @@ h6,
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    border: 1px solid rgba(255,255,255,0.5);
+    border: 2px solid rgba(255,255,255,0.5);
     border-radius: 45px;
     transition: .3s;
+    font-weight: lighter;
 }
 
 .footer .btn.btn-social:hover {
@@ -467,7 +468,7 @@ h6,
 
 .footer .btn.btn-link:hover {
     color: var(--primary) !important;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     box-shadow: none;
 }
 
