@@ -15,11 +15,11 @@ background: #191919;
 .gallery div{
     width: 100%;
      display: grid; 
-    grid-template-columns: auto auto auto;
+     grid-template-columns: auto auto auto; 
     grid-gap: 20px;
     padding: 10px;
-    flex: none;
-}
+     flex: none; 
+} 
 .gallery div img{
     width: 100%;
     height: auto;
@@ -28,14 +28,14 @@ background: #191919;
 }
 .gallery::-webkit-scrollbar{
     display: none;
-}
+} 
 
  .gallery-wrap{
- display: flex;
+  display: flex; 
  align-items: center;
  justify-content: center;
- margin: 10% auto;
-} 
+ /* margin: 10% auto; */
+}  
 #backBtn,#nextBtn{
     width: 50px;
     cursor: pointer;
