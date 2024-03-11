@@ -30,12 +30,12 @@ background: #191919;
     display: none;
 }
 
-/* .gallery-wrap{
+ .gallery-wrap{
  display: flex;
  align-items: center;
  justify-content: center;
  margin: 10% auto;
-} */
+} 
 #backBtn,#nextBtn{
     width: 50px;
     cursor: pointer;
