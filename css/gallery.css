@@ -61,7 +61,7 @@
   flex: none;
 }
 .gallery div img{
-  height: 100%;
+  height: 250px;
   width: 115%;
 
    transition: transform 0.5s;
