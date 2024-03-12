@@ -62,9 +62,9 @@
 }
 .gallery div img{
   height: 100%;
-  width: 300%;
+  width: 210%;
   
-  padding: 25px;
+  padding: 45px;
    transition: transform 0.5s;
 }
     
