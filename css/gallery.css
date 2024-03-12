@@ -62,10 +62,23 @@
 }
 .gallery div img{
   height: 100%;
-  width: 210%;
-  
-  padding: 45px;
+  width: 150%;
+  padding: 15px;
    transition: transform 0.5s;
+}
+.gallery::-webkit-scrollbar{
+  display: none;
+}
+.gallery-wrap{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 10% auto;
+}
+.gallery div img:hover{
+  filter: grayscale(0);
+  cursor: pointer;
+  transform: scale(1.1);
 }
     
   }
