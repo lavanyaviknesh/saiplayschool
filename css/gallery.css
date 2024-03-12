@@ -33,7 +33,7 @@
    justify-content: center;
    margin: 10% auto;
   }
-  #backBtn,#nextBtn{
+  #backBtn, #nextBtn{
       
       width: 50px;
       cursor: pointer;
@@ -64,8 +64,6 @@
     width: 100px;
     max-height: fit-content;
     height: 200px;
-
-
    transition: transform 0.5s;
 }
 .gallery::-webkit-scrollbar{
