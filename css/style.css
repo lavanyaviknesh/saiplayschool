@@ -502,3 +502,22 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+@media screen and (max-width: 360px)
+{
+    .footer .btn.btn-social {
+        margin-right: 5px;
+        width: 45px;
+        height: 45px;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        border: 2px solid rgba(255,255,255,0.5);
+        border-radius: 45px;
+        transition: .3s;
+        font-weight: lighter;
+
+    }
+
+
+}
