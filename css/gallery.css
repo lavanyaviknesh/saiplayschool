@@ -62,8 +62,8 @@
 }
 .gallery div img{
   height: 100%;
-  width: 150%;
-  padding: 15px;
+  width: 115%;
+
    transition: transform 0.5s;
 }
 .gallery::-webkit-scrollbar{
