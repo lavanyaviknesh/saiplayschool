@@ -61,8 +61,8 @@
   flex: none;
 }
 .gallery div img{
-  
-    width: 150px;
+height: 250px;
+    width: 250px;
    transition: transform 0.5s;
 }
 .gallery::-webkit-scrollbar{
