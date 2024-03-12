@@ -62,8 +62,6 @@
 }
 .gallery div img{
     width: 100px;
-    
-    
    transition: transform 0.5s;
 }
 .gallery::-webkit-scrollbar{
