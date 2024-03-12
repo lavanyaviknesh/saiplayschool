@@ -61,8 +61,10 @@
   flex: none;
 }
 .gallery div img{
-  height: 300px;
-  width: 115%;
+    width: 100px;
+    max-height: fit-content;
+    height: 200px;
+
 
    transition: transform 0.5s;
 }
