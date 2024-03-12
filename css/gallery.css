@@ -61,7 +61,8 @@
   flex: none;
 }
 .gallery div img{
-    width: 100px;
+  
+    width: 150px;
    transition: transform 0.5s;
 }
 .gallery::-webkit-scrollbar{
@@ -77,6 +78,12 @@ margin: 10% auto;
   filter: grayscale(0);
   cursor: pointer;
   transform: scale(1.1);
+}
+#backBtn, #nextBtn{
+      
+  width: 25px;
+  
+  
 }
     
   }
