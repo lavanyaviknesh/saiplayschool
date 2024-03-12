@@ -45,3 +45,27 @@
       cursor: pointer;
       transform: scale(1.1);
   }
+  @media (max-width:570px) 
+  {
+    .gallery{
+    width: 900px;
+    display: flex;
+    overflow-x: scroll;
+}
+.gallery div{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+  flex: none;
+}
+.gallery div img{
+  height: 100%;
+  width: 300%;
+  
+  padding: 25px;
+   transition: transform 0.5s;
+}
+    
+  }
