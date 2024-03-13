@@ -502,8 +502,11 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+@media (max-width:380px) {
+    iframe  {
+    height: 480px ;
+    width: 320px;
 
-    
-
-
+}
+}
 
