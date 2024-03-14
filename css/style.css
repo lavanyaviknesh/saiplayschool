@@ -98,6 +98,7 @@ h6,
 
 
 /*** Navbar ***/
+
 .navbar .navbar-nav .nav-link {
     padding: 30px 15px;
     color: var(--dark);
@@ -123,6 +124,7 @@ h6,
     vertical-align: middle;
     margin-left: 5px;
     transition: .5s;
+    visibility: visible;
 }
 
 .navbar .dropdown-toggle[aria-expanded=true]::after {
@@ -134,7 +136,15 @@ h6,
         margin-right: 0;
         padding: 10px 0;
     }
+    .navbar-toggler{
+        display: block;
+    }
+    .breadcrumb-item + .breadcrumb-item::before{
+        height: 25% ;
+        width: 25%;
 
+    }
+    
     .navbar .navbar-nav {
         margin-top: 15px;
         border-top: 1px solid #EEEEEE;
