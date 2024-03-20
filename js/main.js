@@ -79,5 +79,41 @@
     
 })(jQuery);
 
+document.addEventListener("DOMContentLoaded", function() {
+    const container = document.getElementById("imageContainer");
+    const images = container.querySelectorAll(".effect-julia.item");
+    const galleryWidth = container.offsetWidth;
+    const imageWidth = images[0].offsetWidth;
+    const totalImages = images.length;
+
+    let scrollAmount = 0;
+
+    container.style.scrollBehavior = "smooth";
+
+    function scrollGallery(direction) {
+        const maxScroll = (totalImages * imageWidth) - galleryWidth;
+        if (direction === "left") {
+            scrollAmount -= imageWidth * 4;
+            if (scrollAmount < 0) {
+                scrollAmount = 0;
+            }
+        } else {
+            scrollAmount += imageWidth * 4;
+            if (scrollAmount > maxScroll) {
+                scrollAmount = maxScroll;
+            }
+        }
+        container.scrollLeft = scrollAmount;
+    }
+
+    // Left and right arrow click event listeners
+    document.getElementById("scrollLeft").addEventListener("click", function() {
+        scrollGallery("left");
+    });
+
+    document.getElementById("scrollRight").addEventListener("click", function() {
+        scrollGallery("right");
+    });
+});
 
 

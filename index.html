@@ -29,10 +29,18 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
+    <link href="css/index.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-     <link href="css/gallery.css" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
     <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="css/slick.css" type="text/css" />   
+    <link rel="stylesheet" href="css/tooplate-simply-amazed.css" type="text/css"/>
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css" />  
+    <script type="text/javascript" src="js/lightbox-plus-jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
+    
+
+    
   
     
 </head>
@@ -654,41 +662,134 @@
 </div>
 <!-- Appointment End -->
 <!-- Gallery Start -->
-<div class="container-xxl py-5">
+<!-- <div class="container-xxl py-5">
+      
+<section class="gallery-section section parallax-window" data-parallax="scroll" data-image-src="img/section-3-bg.jpg" id="section-3">
     <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
             <h1 class="mb-3">Our Gallery</h1>
         </div>
+           <div class="mx-auto gallery-slider">
             <div class="gallery-wrap">
-                <img src="img/back.png" id="backBtn">
-            
             <div class="gallery">
-                <div>
-                    <a href="img/gallery1.jpg" data-lightbox="mygallery"><img src="img/gallery1.jpg"></a>
-                    <a href="img/gallery5.jpg" data-lightbox="mygallery"> <img src="img/gallery5.jpg"></a>
-                     <a href="img/gallery3.jpg" data-lightbox="mygallery"> <img src="img/gallery3.jpg"></a>
-                    </div> 
-                    <div>
-                        <a href="img/gallery4.png" data-lightbox="mygallery">  <img src="img/gallery4.png"></a>
-                        <a href="img/gallery2.png" data-lightbox="mygallery"> <img src="img/gallery2.png"></a>
-                        <a href="img/gallery10.jpg" data-lightbox="mygallery"> <img src="img/gallery10.jpg"></a>
-                                
-                    </div>
-                    <div>
-                        <a href="img/gallery9.jpg" data-lightbox="mygallery">  <img src="img/gallery9.jpg"></a>
-                        <a href="img/gallery8.jpg" data-lightbox="mygallery">  <img src="img/gallery8.jpg"></a>
-                        <a href="img/gallery12.jpg" data-lightbox="mygallery"> <img src="img/gallery12.jpg"></a>
-                        
-                    </div>
-                    <div>
-                        <a href="img/gallery6.png" data-lightbox="mygallery"> <img src="img/gallery6.png"></a>
-                            <a href="img/gallery11.jpg" data-lightbox="mygallery"> <img src="img/gallery11.jpg"></a>
-                            <a href="img/gallery7.jpg" data-lightbox="mygallery"> <img src="img/gallery7.jpg"></a>   
-                               
-                     </div>  
-                </div>
-               <img src="img/next.png" id="nextBtn">
+    
+                <figure class="effect-julia item">
+                    <a href="img/gallery1.jpg" data-lightbox="mygallery">
+                        <img src="img/gallery1.jpg">
+                    </a>
+                </figure>
+                <figure class="effect-julia item">
+                    <a href="img/gallery2.png" data-lightbox="mygallery">
+                        <img src="img/gallery2.png">
+                    </a>
+                </figure>
+                <figure class="effect-julia item">
+                    <a href="img/gallery3.jpg" data-lightbox="mygallery">
+                        <img src="img/gallery3.jpg">
+                    </a>
+                </figure>
+                <figure class="effect-julia item">
+                    <a href="img/gallery4.png" data-lightbox="mygallery">
+                        <img src="img/gallery4.png">
+                    </a>
+                </figure>
+                <figure class="effect-julia item">
+                    <a href="img/gallery5.jpg" data-lightbox="mygallery">
+                        <img src="img/gallery5.jpg">
+                    </a>
+                </figure>
+                <figure class="effect-julia item">
+                    <a href="img/gallery6.png" data-lightbox="mygallery">
+                        <img src="img/gallery6.png">
+                    </a>
+                </figure>
+                <figure class="effect-julia item">
+                    <a href="img/gallery7.jpg" data-lightbox="mygallery">
+                        <img src="img/gallery7.jpg">
+                    </a>
+                </figure>
+                <figure class="effect-julia item">
+                    <a href="img/gallery8.jpg" data-lightbox="mygallery">
+                        <img src="img/gallery8.jpg">
+                    </a>
+                </figure>
+                <figure class="effect-julia item">
+                    <a href="img/gallery9.jpg" data-lightbox="mygallery">
+                        <img src="img/gallery9.jpg">
+                    </a>
+                </figure>
+                <figure class="effect-julia item">
+                    <a href="img/gallery10.jpg" data-lightbox="mygallery">
+                        <img src="img/gallery10.jpg">
+                    </a>
+                </figure>
+                <figure class="effect-julia item">
+                    <a href="img/gallery11.jpg" data-lightbox="mygallery">
+                        <img src="img/gallery11.jpg">
+                    </a>
+                </figure>
+                <figure class="effect-julia item">
+                    <a href="img/gallery12.jpg" data-lightbox="mygallery">
+                        <img src="img/gallery12.jpg">
+                    </a>
+                </figure>
             </div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+</div>
+</div>  -->
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <section class="gallery-section section parallax-window" data-parallax="scroll" data-image-src="img/section-3-bg.jpg" id="section-3">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">Our Gallery</h1>
+                </div>
+                <div class="mx-auto gallery-slider">
+                    <figure class="effect-julia item">
+                        <a id="gallery1" href="img/gallery1.jpg" title="" rel="lightbox[gallery1]"><img src="img/gallery1.jpg"></a>
+                    </figure>
+                    <figure class="effect-julia item">
+                        <a id="gallery2" href="img/gallery2.png" title="" rel="lightbox[gallery1]"><img src="img/gallery2.png"></a>
+                    </figure>
+                    <figure class="effect-julia item">
+                        <a id="gallery3" href="img/gallery3.jpg" title="" rel="lightbox[gallery1]"><img src="img/gallery3.jpg"></a>
+                    </figure>
+                    <figure class="effect-julia item">
+                        <a id="gallery4" href="img/gallery4.png" title="" rel="lightbox[gallery1]"><img src="img/gallery4.png"></a>
+                    </figure>
+                    <figure class="effect-julia item">
+                        <a id="gallery5" href="img/gallery5.jpg" title="" rel="lightbox[gallery1]"><img src="img/gallery5.jpg"></a>
+                    </figure>
+                    <figure class="effect-julia item">
+                        <a id="gallery6" href="img/gallery6.png" title="" rel="lightbox[gallery1]"><img src="img/gallery6.png"></a>
+                    </figure>
+                    <figure class="effect-julia item">
+                        <a id="gallery7" href="img/gallery7.jpg" title="" rel="lightbox[gallery1]"><img src="img/gallery7.jpg"></a>
+                    </figure>
+                    <figure class="effect-julia item">
+                        <a id="gallery8" href="img/gallery8.jpg" title="" rel="lightbox[gallery1]"><img src="img/gallery8.jpg"></a>
+                    </figure>
+                    <figure class="effect-julia item">
+                        <a id="gallery9" href="img/gallery9.jpg" title="" rel="lightbox[gallery1]"><img src="img/gallery9.jpg"></a>
+                    </figure>
+                    <figure class="effect-julia item">
+                        <a id="gallery10" href="img/gallery10.jpg" title="" rel="lightbox[gallery1]"><img src="img/gallery10.jpg"></a>
+                    </figure>
+                    <figure class="effect-julia item">
+                        <a id="gallery11" href="img/gallery11.jpg" title="" rel="lightbox[gallery1]"><img src="img/gallery11.jpg"></a>
+                    </figure>
+                    <figure class="effect-julia item">
+                        <a id="gallery12" href="img/gallery12.jpg" title="" rel="lightbox[gallery1]"><img src="img/gallery12.jpg"></a>
+                    </figure>
+                    <!-- Add more figure elements for additional images if necessary -->
+                </div>
+            </div>
+        </section>
     </div>
 </div>
  <!-- Gallery End -->
@@ -745,7 +846,7 @@
         <div class="copyright">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="mail:srisaiplayschool@gmail.com"> srisaiplayschool@gmail.com</a>, All Right Reserved. 
+                    &copy; <a class="border-bottom" href="mail:srisaiplayschool@gmail.com"> srisaiplayschool</a>, All Right Reserved. 
                     
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                     Designed By <a class="border-bottom" href="mailto:lavanyavelu1@gmail.com">lavanyaviknesh</a>
@@ -774,7 +875,27 @@
 
 <!-- Template Javascript -->
 <script src="js/main.js"></script>
-<script src="js/gallery.js"></script>
+<script src="js/img.js"></script>
+<script src="js/templatemo-script.js"></script>
+<script src="js/script.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/jquery.singlePageNav.min.js"></script>
+<script src="js/parallax.min.js"></script>
+
+<span onclick="$('gallery1').click();">View Gallery</span>
+<span onclick="$('gallery2').click();">View Gallery</span>
+
+<span onclick="$('gallery3').click();">View Gallery</span>
+<span onclick="$('gallery4').click();">View Gallery</span>
+<span onclick="$('gallery5').click();">View Gallery</span>v
+<span onclick="$('gallery6').click();">View Gallery</span>
+<span onclick="$('gallery7').click();">View Gallery</span>
+<span onclick="$('gallery8').click();">View Gallery</span>
+<span onclick="$('gallery9').click();">View Gallery</span>
+
+<span onclick="$('gallery10').click();">View Gallery</span>
+<span onclick="$('gallery11').click();">View Gallery</span>
+<span onclick="$('gallery12').click();">View Gallery</span>
 
 
 
