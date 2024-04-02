@@ -37,3 +37,7 @@
     cursor: pointer;
     transform: scale(1.1);
 }
+/* Custom CSS to adjust font size of small elements */
+.about-img small {
+    width: 100px; /* Adjust the font size as needed */
+}
